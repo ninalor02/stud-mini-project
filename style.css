@@ -1,0 +1,40 @@
+body{
+    background: tan;
+    background: image ./image -1px;
+    margin: 0px;
+    }
+    
+    
+    header{
+
+    }
+    
+    .title{
+        background-color: darksalmon;
+        border: 600px;
+        font-size: bolder;
+        font-size: 50px;
+     }
+    
+     h2,h3,h4{
+        font-size: 25px;
+        background: green;
+        border: 100px;
+        display:inline-block;
+        margin-left: 80%
+        
+    }
+    .paragrahph{
+    font-size: 15px;
+    }
+    
+    .lesson{
+    font-size: 15px;
+    font: darksalmon;
+    }
+    
+    .img{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
