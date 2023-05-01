@@ -1,40 +1,58 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; 
+    color:antiquewhite
+}   
+
 body{
     background: tan;
-    background: image ./image -1px;
     margin: 0px;
     }
-    
-    
-    header{
 
-    }
-    
-    .title{
-        background-color: darksalmon;
-        border: 600px;
-        font-size: bolder;
-        font-size: 50px;
-     }
-    
-     h2,h3,h4{
-        font-size: 25px;
-        background: green;
-        border: 100px;
-        display:inline-block;
-        margin-left: 80%
-        
-    }
-    .paragrahph{
-    font-size: 15px;
-    }
-    
-    .lesson{
-    font-size: 15px;
-    font: darksalmon;
-    }
-    
-    .img{
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
+header{
+    padding-right: 15px;
+    padding-top: 15px;
+    height: 50px;
+    background-color:darkgreen;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#content{
+    padding: 20px;
+    background-color: antiquewhite;
+    color: black;
+    margin-top: -10px;
+    text-align: center;
+    display: block;
+}
+
+h1, q{
+    color: black;
+}
+
+.img{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contact{
+    text-align: center;
+}
+
+#contact ul{
+    padding: 30px 15px 15px 15px;
+    margin-right:auto;
+    margin-left: auto;
+    width: 350px;
+    height: 100px;
+    border-radius: 20px;
+    border: 5px solid darksalmon; 
+    list-style: none;
+}
+
+footer{
+    padding-top: 200px;
+    text-align: center;
+}
+
